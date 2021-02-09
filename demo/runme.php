@@ -7,7 +7,7 @@ $cookies = [
 ];
 $resume  = '简历.pdf';
 foreach ($cookies as $className => $cookie) {
-    $class    = 'resumePush\Lagou';
+    $class    = 'resumePush\\' . $className;
     $instance = $class::instance($cookie);
     echo $className . ' start' . PHP_EOL;
     if (!$instance->run($resume)) {
