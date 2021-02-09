@@ -13,7 +13,7 @@ Boss直聘、拉勾网
 
 ### 例子
 
-```
+```php
 <?php
 include dirname(__FILE__) . '/../vendor/autoload.php';
 
