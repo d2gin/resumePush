@@ -1,11 +1,15 @@
 <?php
 include dirname(__FILE__) . '/../vendor/autoload.php';
 
+// 本地简历文件
+$resume  = '简历.pdf';
 $cookies = [
+    // 拉勾cookie
     'Lagou'      => 'xxx',
+    // 直聘cookie
     'BossZhipin' => 'xxx',
 ];
-$resume  = '简历.pdf';
+// 推送服务
 foreach ($cookies as $className => $cookie) {
     $class    = 'resumePush\\' . $className;
     $instance = $class::instance($cookie);
