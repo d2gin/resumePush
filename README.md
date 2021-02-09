@@ -5,6 +5,12 @@
 
 Boss直聘、拉勾网
 
+### 准备工作
+
+1. 拉取仓库 `git clone git@github.com:d2gin/resumePush.git`
+
+2. 进入仓库目录，cli执行 `composer install`
+
 ### 例子
 
 ```
