@@ -3,7 +3,7 @@ include dirname(__FILE__) . '/../vendor/autoload.php';
 
 $cookies = [
     'Lagou'       => 'xxx',
-    'BossZhiping' => 'xxx',
+    'BossZhipin' => 'xxx',
 ];
 $resume  = '简历.pdf';
 foreach ($cookies as $className => $cookie) {
