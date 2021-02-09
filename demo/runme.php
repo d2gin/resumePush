@@ -2,7 +2,7 @@
 include dirname(__FILE__) . '/../vendor/autoload.php';
 
 $cookies = [
-    'Lagou'       => 'xxx',
+    'Lagou'      => 'xxx',
     'BossZhipin' => 'xxx',
 ];
 $resume  = '简历.pdf';
