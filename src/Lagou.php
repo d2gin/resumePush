@@ -36,7 +36,7 @@ class Lagou
                 $item = array_shift($info['resume_list']);
                 $this->deleteResume($item['id']);
                 usleep(500000);
-            } else if ($plan == 2 && count($info['resume_list']) >= $this->limit) {
+            } else if (($plan == 2 && count($info['resume_list']) >= $this->limit) || $plan == 3) {
                 foreach ($info['resume_list'] as $item) {
                     $this->deleteResume($item['id']);
                 }
@@ -134,6 +134,7 @@ class Lagou
             'resume_list' => $data['props']['resumeInfo']['nearbyResumes'],
         ];
     }
+
     public function getError()
     {
         return $this->error;

@@ -33,7 +33,7 @@ class BossZhipin
                 // 删1传1
                 $item = array_shift($list);
                 $this->deleteResume($item['resumeId']);
-            } else if ($plan == 2 && count($list) >= $this->limit) {
+            } else if (($plan == 2 && count($list) >= $this->limit) || $plan == 3) {
                 // 清空简历
                 foreach ($list as $item) {
                     $this->deleteResume($item['resumeId']);
