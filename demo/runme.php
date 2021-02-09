@@ -1,5 +1,5 @@
 <?php
-include dirname(__FILE__) . '/../../../autoload.php';
+include dirname(__FILE__) . '/../vendor/autoload.php';
 
 $cookies = [
     'Lagou'       => 'xxx',
