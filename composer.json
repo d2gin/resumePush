@@ -1,0 +1,22 @@
+{
+  "name": "icy8/resumePush",
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "icy8",
+      "email": "672636920@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "resumePush\\": "src/"
+    }
+  }
+}
